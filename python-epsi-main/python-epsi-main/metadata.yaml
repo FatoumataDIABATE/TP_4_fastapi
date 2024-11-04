@@ -1,0 +1,13 @@
+documentclass: article
+geometry: margin=30mm
+fontsize: 12pt
+header-includes:
+  - \usepackage{xcolor}      # Package pour les couleurs
+  - \usepackage{listings}    # Package pour la coloration syntaxique
+  - \usepackage{caption}     # Package pour gérer les légendes et l'espace
+  - \captionsetup[lstlisting]{font=small,skip=5pt}  # Ajuste la taille de la police et l'espace autour des blocs de code
+  - \usepackage{fvextra}
+  - \DefineVerbatimEnvironment{Highlighting}{Verbatim}{breaklines,commandchars=\\\{\}}
+  - \usepackage{float}       # Package to control floating objects
+  - \floatplacement{lstlisting}{H}  # Prevent code blocks from being floated
+
